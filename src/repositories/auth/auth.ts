@@ -2,10 +2,13 @@ import { ILogin } from "../../common/interfaces/login";
 import api from "../../providers/api";
 
 export const doLogin = async ({ password, username }: any) => {
+  const config = {
+    headers: { "Access-Control-Allow-Origin" : "*" }
+  };
   const response = await api.post('/auth/login', {
     password,
     username,
-  });
+  }, config);
   return response.data;
 };
 
