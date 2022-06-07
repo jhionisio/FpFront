@@ -10,11 +10,14 @@ export const doLogin = async ({ password, username }: any) => {
 };
 
 export const doSignUp = async ({ email, password, username, cellPhone }: any) => {
+  const config = {
+    headers: { "Access-Control-Allow-Origin" : "*" }
+  };
   const response = await api.post('/user-api/create', {
     email, 
     password, 
     username, 
     cellPhone
-  });
+  }, config);
   return response.data;
 };
