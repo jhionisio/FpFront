@@ -1,0 +1,11 @@
+.cardListContainer {
+    width: 18rem;
+    height: 17rem;
+    border: 3px solid rgb(96, 100, 97);
+    border-radius: 0.30rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}

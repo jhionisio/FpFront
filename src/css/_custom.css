@@ -1,0 +1,10 @@
+.dataCard{height:440px; width: 540px; border-radius: 12px; border: 1px solid rgb(186, 219, 249); align-self: center;}
+.data{height:400px; width: 480px; margin-left: 1.8em;}
+.list{font-size: xx-large; font-weight: 300; color: darkgoldenrod;}
+.flex{display: flex; justify-content: center; align-items: center; flex-direction: column;}
+.container{display: flex; justify-content: center;}
+.containerSU{display: flex; justify-content: center;}
+.btnSU{display: flex; justify-content: center; color: darkgoldenrod;}
+.btnLO{ display: flex; justify-content: center; color: darkgoldenrod;}
+.h1SU{display: flex; justify-content: center;}
+.cardSU{height:640px; width: 540px; border-radius: 12px; border: 1px solid rgb(186, 219, 249);}
